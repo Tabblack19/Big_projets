@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+    <head>
+
+    <script src="//assets.adobedtm.com/launch-ENff0e0fc838cb4eea8a268a25c2e128b9.min.js" async></script>
+
+
+
+<!-- JQuery CDN references -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/redmond/jquery-ui.min.css" integrity="sha512-pL3uvb0iajriFzWcsjvmztg0ViN8MGpl4ajmiCb+xC5vnLUES2mkdp+7YAUjlcK/T+htiZH9HNkxAO+P3TbUmA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- JQuery style overrides -->
+<style type="text/css">
+.ui-dialog .ui-dialog-titlebar-close span { margin:-8px 0px 0px -8px !important; }
+</style>
+<script src="/js/common.js?v=1" type="text/javascript"></script>
+<!-- Google Analytics START -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-410365-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KNNXWLE05Q"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KNNXWLE05Q');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1072360689"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-1072360689');
+</script>
+<!-- Google Analytics code snippet END -->
+<!-- Bing Ads START -->
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5695845"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5695845&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+<!-- Bing Ads END -->
+<!-- LinkedIn tracking START -->
+<script type="text/javascript">
+_linkedin_partner_id = "3160940";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=3160940&fmt=gif" />
+</noscript>
+<!-- LinkedIn trackind END -->
+<script language="javascript" type="text/javascript">
+    //populates the MSegment variable with the value of the .MemberSegment cookie
+    var MSegment = "";
+    var found = 1;
+    var dc = document.cookie;
+    var prefix = ".MemberSegment=";
+    var begin = dc.indexOf("; " + prefix);
+    if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) found = 0;
+    } else {
+        begin += 2;
+    }
+    if (found != 0) {
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+            end = dc.length;
+        }
+        MSegment = unescape(dc.substring(begin + 15, end));
+    }
+</script>	
+<script language="javascript">var sitelanguage;</script>
+
+	<script language="javascript">sitelanguage = "french";</script>
+
+<!-- industry Based Popup Message Service Start-->
+<div id="IndustryMessageDialog" style="padding:20px; display:none" >
+<input type="hidden" id="hidIndustry" />
+<a href="#" class="close"><img src="/images/close_pop.png" class="btn_close_industry_pop" title="Close Window" alt="Close" border="0" /></a>
+    <div id="industryContent" class="industryContent" ></div>
+    <div style="padding-right:15px;padding-top:5px;font-size:12px;">
+     <label for="display" class="socialtext" style="float:left;padding-left:5px;padding-right:25px;"><input type="checkbox" name="chkIndustryPopup" id="chkIndustryPopup" checked />
+          Do not display this message again</label><div id="industryclosebutton" style="float:right;text-decoration:underline; cursor:pointer;padding:4px 0 0 0;">Close window</div>
+    </div>
+</div>
+<script type="text/javascript" language="javascript">function mboxLoadSCPlugin(){}</script>
+
+
+	<link rel="canonical" href="https://fr.maplesoft.com/products/maplecalculator/download/apple.aspx" />		
+
+
+<link rel="alternate" href="https://www.maplesoft.com/products/maplecalculator/download/apple.aspx" hreflang="en" />
+<link rel="alternate" href="https://fr.maplesoft.com/products/maplecalculator/download/apple.aspx" hreflang="fr" />
+<link rel="alternate" href="https://de.maplesoft.com/products/maplecalculator/download/apple.aspx" hreflang="de" />
+<link rel="alternate" href="https://jp.maplesoft.com/products/maplecalculator/download/apple.aspx" hreflang="jp" />
+<link rel="alternate" href="https://cn.maplesoft.com/products/maplecalculator/download/apple.aspx" hreflang="cn" />
+<link rel="alternate" href="https://www.maplesoft.com/products/maplecalculator/download/apple.aspx" hreflang="x-default" />
+<title>Apple: Maple Calculator &#45; Download on the Apple Store</title>
+
+  
+		<meta name="description" content="Download the free Maple Calculator app from the App Store. The Maple Calculator is a free math solver app that provides step-by-step answers to math problems.">
+	<meta http-equiv="refresh" content="5;url=https://apps.apple.com/us/app/maple-companion/id1466659419?ls=1" />
+	<title>MapleSim Server</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/includes2/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/includes2/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/includes2/css/aspect.css">
+        <link rel="stylesheet" href="/includes2/css/style.css">
+        <link rel="stylesheet" href="/includes2/css/responsive.css">
+       
+        <script type="text/javascript" src="/includes2/modernizr/modernizr.custom.27667.js"></script>
+                    <!--[if lt IE 9]>
+         <script type="text/javascript" src="/includes2/html5shiv/html5shiv.js"></script>
+         <script type="text/javascript" src="/includes2/respond/respond.min.js"></script>
+                    <![endif]-->
+    	
+        <style>
+#main.main-2 {
+  position: relative;
+	background: #ffffff; }
+
+#main.main-2:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/products/MapleCalculator/images/hero-background.svg) no-repeat bottom left;
+    background-size: cover;
+    content: ""; }
+   
+@media (max-width: 991px) {
+ 
+#main.main-2:after {
+        display: none; } }
+
+@media (max-width: 991px) {
+    #main.main-2:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      bottom: 160px;
+      content: ""; } }
+ 
+@media (max-width: 767px) {
+	#main.main-2:before {
+      bottom: 145px; } }
+
+	#main.main-2 .main-content {
+    position: relative;
+    padding: 0px 0 50px 0;
+    z-index: 1; }
+    @media (max-width: 991px) {
+      #main.main-2 .main-content {
+        padding-top: 5px; } }
+    #main.main-2 .main-content__title {
+      color: #fff; }
+    #main.main-2 .main-content__lead {
+      color: rgba(255, 255, 255, 0.85); }
+    #main.main-2 .main-content__form {
+      padding: 40px 45px;
+      margin-top: 50px;
+      background: #fff;
+      border-radius: 9px;
+      box-shadow: 0 4px 9px 0 rgba(23, 28, 33, 0.06); }
+      @media (max-width: 991px) {
+        #main.main-2 .main-content__form {
+          margin-top: 0;
+          transform: translateY(50%); } }
+      @media (max-width: 767px) {
+        #main.main-2 .main-content__form {
+          padding: 25px 30px; } }
+      #main.main-2 .main-content__form--icon {
+        position: absolute;
+        left: 12px;
+        font-size: 24px; }
+      #main.main-2 .main-content__form--input {
+        padding-left: 3rem;
+        margin-right: 20px;
+        height: 46px;
+        font-size: 18px;
+        background: transparent;
+        border: none; }
+        #main.main-2 .main-content__form--input:before {
+          font-size: 24px;
+          font-family: 'iconsmind';
+          content: "\ea6f"; }
+        @media (max-width: 767px) {
+          #main.main-2 .main-content__form--input {
+            padding-left: 0;
+            margin-right: 0;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 14px; } }
+      @media (max-width: 767px) {
+        #main.main-2 .main-content__form--btn {
+          width: 100%; } }
+    #main.main-2 .main-content__pricing {
+      margin-top: 40px; }
+      @media (max-width: 991px) {
+        #main.main-2 .main-content__pricing {
+          display: none; } }
+      #main.main-2 .main-content__pricing li {
+        padding: 0 15px;
+        border-right: 1px solid #e0e0e0; }
+        #main.main-2 .main-content__pricing li img {
+          margin-right: .5rem;
+          max-height: 25px;
+          max-width: 50px; }
+        #main.main-2 .main-content__pricing li:last-child {
+          border-right: none; }
+    #main.main-2 .main-content .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateY(-216px);
+      max-width: 110%; }
+      @media (max-width: 1366px) {
+        #main.main-2 .main-content .hero-image {
+          max-width: 100%;
+          transform: translateY(-196px); } }
+      @media (max-width: 991px) {
+        #main.main-2 .main-content .hero-image {
+          display: none; } }
+  #main.main-2 .main-clients {
+    padding-bottom: 80px; }
+    @media (max-width: 1199px) {
+      #main.main-2 .main-clients {
+        padding-bottom: 40px; } }
+    @media (max-width: 991px) {
+      #main.main-2 .main-clients {
+        padding-bottom: 0;
+        margin-top: 60px; } }
+    #main.main-2 .main-clients img {
+      max-height: 110px;
+      filter: grayscale(100%);
+      transition: .2s ease-in;
+      opacity: .4; }
+      #main.main-2 .main-clients img:hover {
+        opacity: 1;
+        filter: grayscale(0); }	
+			
+			
+.headerlogo {
+text-decoration:none;
+}
+.headerlogo:hover {
+text-decoration:none;
+}
+			
+.MCLogo {
+    text-align: left;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-top: 25px;
+	font-size: 68px;
+}
+
+.MCSub {
+	font-size: 40px;	
+}
+
+			
+@media screen and (max-width: 1600px) { 
+.MCLogo {
+	font-size: 68px;
+}
+.MCSub {
+	font-size: 40px;	
+}
+	
+@media screen and (max-width: 1199px) { 
+.MCLogo {
+	font-size: 68px;
+}
+.MCSub {
+	font-size: 40px;	
+}
+
+@media screen and (max-width: 991px) { 
+.MCLogo {
+	font-size: 48px;
+}
+.MCSub {
+	font-size: 40px;	
+}
+
+@media screen and (max-width: 767px) { 
+.MCLogo {
+	font-size: 48px;
+}
+.MCSub {
+	font-size: 28px;	
+} 
+
+@media screen and (max-width: 530px) { 
+.MCLogo {
+	font-size: 28px;
+}
+.MCSub {
+	font-size: 28px;	
+}
+
+@media screen and (max-width: 480px) { 
+.MCLogo {
+	font-size: 28px;
+}
+.MCSub {
+	font-size: 28px;	
+}	
+</style> 
+	
+<link rel="stylesheet" href="//d22hhoe037sl7u.cloudfront.net/1.7/css/link_texting_gz.min.css">
+<style type="text/css">
+  /* Add your own LinkTexting form style overrides in your site stylesheet or in this style block.
+  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+<script type="text/javascript">
+  /* Default Country Off, if set to false will use linkTextingDefaultCountry to decide default country, otherwise will determine the visiting user's country via their location */
+  var linkTextingDefaultCountryOff = true;
+  /* All Country data is lowercase ISO2 standard http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 */
+  /* Default Country, if set to "auto" will determine the visiting user's country via their location */
+  var linkTextingDefaultCountry = "us";
+  /* If using automatic country detection with https or over 1,000 visits/day go to http://ipinfo.io, get a token, and place it here */
+  var linkTextingIpinfoToken = "";
+  /* Preferred Countries in Dropdown */
+  var linkTextingPreferredCountries = ["us","ca","gb","de","fr","jp","cn","in"];
+  /* Countries available in dropdown */
+  var linkTextingOnlyCountries = ["af","al","dz","as","ad","ao","ai","ag","ar","am","aw","au","at","az","bs","bh","bd","bb","by","be","bz","bj","bm","bt","bo","ba","bw","br","io","vg","bn","bg","bf","bi","kh","cm","ca","cv","bq","ky","cf","td","cl","cn","co","km","cd","cg","ck","cr","ci","hr","cu","cw","cy","cz","dk","dj","dm","do","ec","eg","sv","gq","er","ee","et","fk","fo","fj","fi","fr","gf","pf","ga","gm","ge","de","gh","gi","gr","gl","gd","gp","gu","gt","gn","gw","gy","ht","hn","hk","hu","is","in","id","ir","iq","ie","il","it","jm","jp","jo","kz","ke","ki","kw","kg","la","lv","lb","ls","lr","ly","li","lt","lu","mo","mk","mg","mw","my","mv","ml","mt","mh","mq","mr","mu","mx","fm","md","mc","mn","me","ms","ma","mz","mm","na","nr","np","nl","nc","nz","ni","ne","ng","nu","nf","kp","mp","no","om","pk","pw","ps","pa","pg","py","pe","ph","pl","pt","pr","qa","re","ro","ru","rw","bl","sh","kn","lc","mf","pm","vc","ws","sm","st","sa","sn","rs","sc","sl","sg","sx","sk","si","sb","so","za","kr","ss","es","lk","sd","sr","sz","se","ch","sy","tw","tj","tz","th","tl","tg","tk","to","tt","tn","tr","tm","tc","tv","vi","ug","ua","ae","gb","us","uy","uz","vu","va","ve","vn","wf","ye","zm","zw"];
+</script>
+<script type="text/javascript" src="//s3.amazonaws.com/linktexting-cdn/1.7/js/link_texting_gz.min.js"></script>	
+     
+    </head>
+    <body data-spy="scroll" data-target="#section-nav">
+
+<!-- SiteCatalyst code version: H.14. Copyright 1997-2007 Omniture, Inc. More info available at http://www.omniture.com --><script language="JavaScript">
+if (typeof s === 'undefined') {
+setTimeout(tryFallback, 2000);
+}
+else {
+load6Sense()
+}
+function tryFallback() {
+if (typeof s === 'undefined') {
+(function(){var s = document.getElementsByTagName('script')[0];
+var b = document.createElement('script');
+b.type = 'text/javascript';b.async = true;
+b.src = '/omniture/s_code.js';
+s.parentNode.insertBefore(b, s);})();
+setTimeout(load6Sense, 2000);
+}
+else {
+load6Sense();
+}
+}
+function load6Sense() {
+var interval_e = 0;
+timer_e = setInterval(function () {
+if( window._storagePopulated || interval_e==500){
+clearInterval(timer_e);
+fireAnalytics();
+}
+interval_e++;
+}, 1);
+}
+function fireAnalytics() {
+/* You may give each page an identifying name, server, and channel on the next lines. */
+s.pageName="Maple Calculator:Download:Apple";
+s.server="North America";
+s.channel="Products:Maple Calculator";
+s.pageType="";
+s.prop3="french";
+s.prop13="Non-Member";
+/* Conversion Variables */
+s.campaign="";
+s.state="";
+s.zip="";
+s.events="";
+s.products="";
+s.purchaseID="";
+s.currencyCode="";
+s.eVar13="Non-Member";
+var n = JSON.parse(localStorage.getItem('_6senseCompanyDetails'));
+if (n != null) {
+var company = n.company.name;
+if(company == undefined && '' == company) {company='Not Identified'}
+var industry = n.company.industry;
+if(industry == undefined && '' == industry){industry='Not Identified'}
+var employeeRange = n.company.employee_range;
+if(employeeRange == undefined && '' == employeeRange){employeeRange='Not Identified'}
+var revenueRange = n.company.revenue_range;
+if(revenueRange == undefined && '' == revenueRange){revenueRange='Not Identified'}
+var sic = n.company.sic;
+if(sic == undefined && '' == sic){sic='Not Identified'}
+var sicDescription = n.company.sic_description;
+if(sicDescription == undefined && '' == sicDescription){sicDescription='Not Identified'}
+s.eVar52 = company + '|' + industry + '|' + employeeRange + '|' + revenueRange + '|' + sic + '|' + sicDescription;
+}
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code);
+}
+</script><!-- End SiteCatalyst code version: H.14. -->
+
+	
+	 <header class="custom-3">
+                <div class="top-bar hidden-sm hidden-xs" style="background-color: #ffffff; border-bottom: 0px;">
+                    <div class="container hidden-xs">
+                         <div class="row">
+                            <div class="col-sm-4 info">
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="buttons pull-right text-right" style="padding-top: 10px;">
+                                    <span class="text" style="font-size: 13px; padding: 10px 10px 5px 10px;"> <em class="fa fa-phone main-text-color"> </em><a href="https://www.maplesoft.com/contact/" style="padding-left: 5px; color: #333333">Contactez Maplesoft</a></span>
+                                    <span class="text" style="font-size: 13px; padding: 10px 10px 5px 10px;"> <em class="fa fa-file main-text-color"> </em><a href="https://www.maplesoft.com/contact/webforms/requestquote.aspx" style="padding-left: 5px; color: #333333">Demandez un devis</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container menu-bar" role="navigation">
+                    <div class="large-header">
+                        <div class="logo-wrapper">
+                            <a class="logo-box" href="https://www.maplesoft.com">
+                                <img class="img-responsive" alt="Maplesoft logo" src="/images2015/Maplesoft_logo2x.png">
+                            </a>
+                        </div>
+
+                        
+                        <ul class="nav navbar-nav navbar-right">
+                         <li class="uber-dropdown dropdown">
+                                <a class=" v-al-container" data-toggle="dropdown" href="https://www.maplesoft.com/products/">
+                                    <div class="v-al">
+                                        <em class="fa fa-briefcase"></em>
+                                        <div class="text">Produits</div>
+                                    </div>
+                                </a>
+                                <div id="uber-menu-1" class="uber-menu panel-collapse">
+                                    <div class="container">
+                                        <div class="main-wrap">
+                                            <div class="items-wrap clearfix">
+                                                <div class="col-xs-4 col">
+                                                    <img src="/images2018/NavIcons/Maple.png" alt="Maple Icon" class="pull-left" style="padding-right: 5px;">
+													<a href="https://www.maplesoft.com/products/Maple/"><h3>Maple</h3></a>
+													<h4>Logiciel de math&eacute;matiques puissant facile &agrave; utiliser</h4>
+                                                    <a href="https://www.maplesoft.com/products/Maple/academic/">&#8226; Maple Acad&eacute;mique</a>
+                                                    <a href="https://www.maplesoft.com/products/Maple/students/">&#8226; Maple Edition &Eacute;tudiant</a>
+													<a href="https://www.maplesoft.com/products/Learn/">&#8226; Maple Learn</a>
+													<a href="https://www.maplesoft.com/products/MapleCalculator/">&#8226; Maple Calculator App</a>
+													<a href="https://www.maplesoft.com/products/Maple/professional/">&#8226; Maple pour l&rsquo;industrie et le gouvernement</a>
+													<a href="https://www.maplesoft.com/products/Mapleflow/">&#8226; Maple Flow</a>
+													<a href="https://www.maplesoft.com/products/Maple/personal_edition/">&#8226; Edition personnelle Maple</a>
+                                              		<p></p>
+													<img src="/images2018/NavIcons/Maple-Addon.png" alt="Maple Addon Icon" class="pull-left" style="padding-right: 5px;">
+													<a href="https://www.maplesoft.com/products/maple/toolboxes/">
+													<h3>Add-ons Maple</h3></a>
+													<a href="https://www.maplesoft.com/products/maple/toolboxes/index.aspx#ebooks">&#8226; E-Books &amp; Guides d'&eacute;tude</a>
+													<a href="https://www.maplesoft.com/products/maple/toolboxes/index.aspx#toolboxes">&#8226; Bo&icirc;te &agrave; outils et add-ons Maple</a>
+													<a href="https://www.maplesoft.com/products/maplenet/index_aca.aspx">&#8226; MapleNet</a>
+													 <a href="https://www.maplesoft.com/products/maple/Mapleplayer/">&#8226; Maple Player gratuit</a>
+												</div>
+                                 
+                                                <div class="col-xs-4 col">
+													<img src="/images2018/NavIcons/MapleSim.png" alt="MapleSim Icon" class="pull-left" style="padding-right: 5px;">
+                                                    <a href="https://www.maplesoft.com/products/maplesim/"><h3>MapleSim</h3></a>
+													<h4>Mod&eacute;lisation avanc&eacute;e au niveau syst&egrave;me</h4>
+                                                    <a href="https://www.maplesoft.com/products/maplesim/">&#8226; MapleSim</a>
+													<a href="https://www.maplesoft.com/solutions/manufacturing/digital-twin.aspx">&#8226; MapleSim pour la cr&eacute;ation de jumeaux num&eacute;riques</a>
+													<a href="https://www.maplesoft.com/products/maplesim/academic/">&#8226; MapleSim Acad&eacute;mique</a>
+													<p></p>
+													<img src="/images2018/NavIcons/MapleSim-Addon.png" alt="Maple Addon Icon" class="pull-left" style="padding-right: 5px;">
+													<a href="https://www.maplesoft.com/products/maplesim/toolboxes/"><h3>Add-ons MapleSim</h3></a>
+													<a href="https://www.maplesoft.com/products/maplesim/toolboxes/">&#8226; Biblioth&egrave;ques de composants add-on</a>
+													<!--<a href="https://www.maplesoft.com/products/toolboxes/#maplesim">&#8226; MapleSim Connecteurs et biblioth&egrave;ques de composants</a>-->
+													<a href="https://www.maplesoft.com/products/maplesimexplorer/">&#8226; MapleSim Explorer</a>
+														<a href="https://www.maplesoft.com/products/maplesim-insight/">&#8226; MapleSim Insight</a>
+													<!--<a href="https://www.maplesoft.com/products/maplesimserver">&#8226; MapleSim Server</a>
+													<a href="https://www.maplesoft.com/products/maplesim/ModelicaEngine/">&#8226; Moteur MapleSim Modelica</a>-->
+                                                </div>
+												 <div class="col-xs-4 col">
+													 <img src="/images2018/NavIcons/MapleMBSE.png" alt="MapleMBSE Icon" class="pull-left" style="padding-right: 5px;">
+													<a href="https://www.maplesoft.com/Engineering/"><h3>Ing&eacute;nierie syst&egrave;mes</h3></a>
+													<a href="https://www.maplesoft.com/products/maplembse/">&#8226; MapleMBSE</a>
+													 <p style="padding-top: 15px;"></p>
+                                                    <img src="/images2018/NavIcons/Engineering-Services.png" alt="Engineering Service Icon" class="pull-left" style="padding-right: 5px;">
+													 <a href="https://www.maplesoft.com/products/proservices/"><h3>Services-conseils</h3></a>
+														<a href="https://www.maplesoft.com/products/proservices/">&#8226; Services d&rsquo;ing&eacute;nierie</a>
+													 <a href="https://www.maplesoft.com/support/training/">&#8226; Formation produit en ligne</a>
+													  <a href="https://www.maplesoft.com/solutions/machine-builders/">&#8226; Turnkey Solutions</a>
+													 <p style="padding-top: 15px;"></p>
+                                                     <img src="/images2021/DE-Favicon.png" alt="DigitalEd Icon" class="pull-left" style="padding-right: 5px;">
+													 <a href="https://www.maplesoft.com/OnlineLearning/"><h3>Produits d&rsquo;enseignement en ligne</h3></a>
+													 <a href="https://www.digitaled.com/" onclick="var s=s_gi('maplesoftcom'); s.linkTrackVars='None'; s.linkTrackEvents='None'; s.tl(this,'o','Digital Ed Link');" target="_blank">Vous cherchez Maple T.A. ou M&ouml;bius&nbsp;? <br>
+DigitalEd, un partenaire technologique de Maplesoft, offre maintenant ces produits. En savoir plus.</a>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="uber-dropdown dropdown">
+                                <a class=" v-al-container" data-toggle="dropdown" href="https://www.maplesoft.com/solutions/">
+                                    <div class="v-al">
+                                        <em class="fa fa-lightbulb-o"></em>
+                                        <div class="text">Solutions</div>
+                                    </div>
+                                </a>
+                                <div id="uber-menu-1" class="uber-menu panel-collapse">
+                                    <div class="container">
+                                        <div class="main-wrap">
+                                            <div class="items-wrap clearfix">
+                                                
+                                                <div class="col-xs-3 col" style="border-right: 0px;">
+													<img src="/images2018/NavIcons/Education.png" alt="Book Icon" class="pull-left" style="padding-right: 5px;">
+                                                    <a href="https://www.maplesoft.com/solutions/education/"><h3>Enseignement</h3></a>
+                                                    <a href="https://www.maplesoft.com/solutions/education/solutions/matheducation.aspx">&#8226; Enseignement des math&eacute;matiques</a>
+                                                    <a href="https://www.maplesoft.com/solutions/education/solutions/engineeringedu.aspx">&#8226; Enseignement de l&rsquo;ing&eacute;nierie</a>
+                                                    <a href="https://www.maplesoft.com/solutions/education/solutions/college.aspx">&#8226; Enseignement secondaire et sup&eacute;rieur</a>
+														 <div style="padding-left: 15px;"><a href="https://www.maplesoft.com/academic_math/sti2d/">&#8226; S-SI STI2D</a></div>
+													<div style="padding-left: 15px;"><a href="https://www.maplesoft.com/products/maple/academic/maple-lycee.aspx">&#8226; Math&eacute;matiques du lyc&eacute;es</a></div>
+													<div style="padding-left: 15px;"><a href="https://www.maplesoft.com/cpge/">&#8226; CPGE</a></div>
+                                                    <a href="https://www.maplesoft.com/solutions/education/solutions/students.aspx">&#8226; Etudiants</a>
+													<a href="https://www.maplesoft.com/products/maple/academic/remotelearning/">&#8226; Ressources d&rsquo;apprentissage &agrave; distance</a>
+												</div>
+												
+												    <div class="col-xs-6 col" style="border-left: 1px solid #e1e1e1;">
+													<div class="col-xs-6 col" style="border-right: 0px;">
+													<img src="/images2018/NavIcons/industry.png" alt="Gear Icon" class="pull-left" style="padding-right: 5px;">
+                                                    <a href="https://www.maplesoft.com/solutions/engineering/index.aspx"><h3>
+Industrie</h3></a>
+													<h4>Automobile et a&eacute;ronautique</h4>
+													<a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/hevev.aspx">&#8226; V&eacute;hicules &eacute;lectriques et &eacute;lectriques hybrides</a>
+												    <a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/powertrain.aspx">&#8226; Groupe motopropulseur</a>
+													<a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/vehicledynamics.aspx">&#8226; Dynamique v&eacute;hicule</a>
+													<a href="https://www.maplesoft.com/solutions/heavy-mobile-machinery/index.aspx">&#8226; Engins lourds de chantier</a>
+													<a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/aircraftsystems.aspx">&#8226; Syst&egrave;mes a&eacute;ronautiques</a>
+                                                    <a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/spacesystems.aspx">&#8226; Syst&egrave;mes spatiaux</a>	
+													<p></p>
+													<h4>Robotique</h4>	
+													<a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/Robotics.aspx">&#8226; Recherche en robotique</a>	
+                                                    <a href="https://www.maplesoft.com/solutions/engineering/AppAreas/RoboticsMechatronics.aspx">&#8226; Robotique/Contr&ocirc;le de mouvement/M&eacute;catronique</a>
+													</div>
+                                        			<div class="col-xs-6 col">
+                                                    <a href="#"><h3>&nbsp;</h3></a>
+													<h4>Conception de machine &amp; automatismes industriels</h4>
+													<a href="https://www.maplesoft.com/solutions/engineering/AppAreas/machine-design-software.aspx">&#8226; Conception de machine</a>
+													<a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/Manufacturing.aspx">&#8226; Fabrication</a>	
+													<a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/Mining.aspx">&#8226; Equipements miniers &amp; p&eacute;troliers</a>
+														<a href="https://www.maplesoft.com/products/toolboxes/webhandling/">&#8226; Manipulation de bandes</a>
+														<p></p>
+													<h4>Autres</h4>
+													<a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/Power.aspx">&#8226; Energie</a>
+													<a href="https://www.maplesoft.com/solutions/applied_research/solutions/financial.aspx">&#8226; Mod&eacute;lisation financi&egrave;re</a>
+                                                    <a href="https://www.maplesoft.com/solutions/engineering/IndustrySolutions/medicaldevices.aspx">&#8226; Appareils m&eacute;dicaux</a>
+													<a href="https://www.maplesoft.com/solutions/applied_research/solutions/lifesciences.aspx">&#8226; Sciences de la vie</a>
+                                        </div>
+                                    </div>
+												
+												
+												<div class="col-xs-3 col">
+													<img src="/images2018/NavIcons/Application.png" alt="Atom Icon" class="pull-left" style="padding-right: 5px;">
+													<a href="https://www.maplesoft.com/solutions/engineering/index.aspx"><h3>Domaines d&rsquo;application</h3></a>
+													 <a href="https://www.maplesoft.com/products/maple/Electrical-Power-Systems/index.aspx">&#8226; Power Systems Engineering</a>
+													   <a href="https://www.maplesoft.com/products/maple/electrical-engineering-software/index.aspx">&#8226; Electrical Engineering Calculations</a>
+													<a href="https://www.maplesoft.com/products/maple/mechanical-engineering-software/index.aspx">&#8226; Mechanical Engineering Calculations</a>
+                                                    <a href="https://www.maplesoft.com/solutions/engineering/AppAreas/SimulationAnalysis.aspx">&#8226; Simulation &amp; analyse syst&egrave;me</a>
+													<a href="https://www.maplesoft.com/solutions/engineering/AppAreas/Virtual-Commissioning.aspx">&#8226; Mise en service virtuelle</a>
+                                                    <a href="https://www.maplesoft.com/solutions/engineering/AppAreas/battery.aspx">&#8226;  Conception de batteries</a>
+													<a href="https://www.maplesoft.com/products/toolboxes/heattransfer/">&#8226; Mod&eacute;lisation des transferts thermiques</a>
+													<a href="https://www.maplesoft.com/solutions/engineering/AppAreas/Analysis_design_calculation.aspx">&#8226; Analyse dynamique de m&eacute;canismes</a>
+													<a href="https://www.maplesoft.com/products/maple/professional">&#8226; Utils d'analyse &amp; de calcul de conception</a>
+													<a href="https://www.maplesoft.com/solutions/mbse.aspx">&#8226; Ing&eacute;nierie syst&egrave;mes &agrave; base de mod&egrave;les</a>
+													<a href="https://www.maplesoft.com/solutions/engineering/AppAreas/HIL.aspx">&#8226; D&eacute;veloppement de mod&egrave;les HIL</a>
+													<a href="https://www.maplesoft.com/solutions/engineering/AppAreas/VibrationAnalysis.aspx">&#8226; Analyse et att&eacute;nuation des vibrations</a>
+                                                </div>
+                                </div>
+                            </li>
+                            
+                            
+							<li class="uber-dropdown dropdown">
+                                <a class=" v-al-container" data-toggle="dropdown" href="https://www.maplesoft.com/pricing/">
+                                    <div class="v-al">
+                                        <em class="fa fa-shopping-cart"></em>
+                                        <div class="text">Achats</div>
+                                    </div>
+                                </a>
+                                <div id="uber-menu-1" class="uber-menu panel-collapse">
+                                    <div class="container">
+                                        <div class="main-wrap">
+                                            <div class="items-wrap clearfix">
+                                                <div class="col-xs-3 col">
+                                                    <a href="https://www.maplesoft.com/pricing/"><h3>Prix et d'achats</h3></a>
+                                    				<a href="https://www.maplesoft.com/products/maple/pricing/">&#8226; Maple</a>
+														<a href="https://www.maplesoft.com/pricing/">&#8226; Maple Flow</a>
+													<a href="https://www.maplesoft.com/pricing/">&#8226; MapleSim</a>
+                                   					<a href="https://www.maplesoft.com/pricing/">&#8226; Add-ons et connecteurs</a>
+                                   					<a href="https://www.maplesoft.com/contact/webforms/requestquote.aspx">&#8226; Demande de devis</a>
+                                                </div>
+
+                                                <div class="col-xs-3 col">
+                                               		<a href="https://webstore.maplesoft.com/"><h3>Achats</h3></a>
+                                                    <a href="https://webstore.maplesoft.com/">&#8226; Boutique en ligne Maplesoft</a>
+                                                    <a href="https://webstore.maplesoft.com/upgrade/">&#8226; Mise &agrave; jour vers la derni&egrave;re version</a>
+													  <a href="https://www.maplesoft.com/contact/webforms/contact_sales.aspx">&#8226; Contacter notre service commercial</a>
+                                                </div>
+
+                                                <div class="col-xs-3 col">
+                                                    <a href="https://www.maplesoft.com/pricing/"><h3>Licences institutionnelles Etudiants</h3></a>
+                                                    <a href="https://www.maplesoft.com/products/maple/academic/virtualization.aspx">&#8226; Virtualisation</a>
+                                                    <a href="https://www.maplesoft.com/pricing/">&#8226; Licences Etudiants &amp; options de distribution</a>
+                                                </div>
+                                              
+                                                <div class="col-xs-3 col">
+                                                    <a href="https://www.maplesoft.com/elite/"><h3>Vue d&rsquo;ensemble du service EMP</h3></a>
+													<a href="https://www.maplesoft.com/elite/">&#8226; EMP Overview</a>
+                									<a href="https://www.maplesoft.com/elite/faqs.aspx">&#8226; Foire aux questions EMP</a>
+                                                    <!--<h6>&nbsp;</h6>
+                                                    <a href="#"><h3>Have a question?</h3></a>
+                                                    <a href="https://www.maplesoft.com/contact/webforms/contact_sales.aspx">&#8226; Contact Maplesoft Sales</a>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                          	</li>
+										
+                      	<li class="uber-dropdown dropdown">
+                                <a class=" v-al-container" data-toggle="dropdown" href="https://www.maplesoft.com/site_resources/">
+                                    <div class="v-al">
+                                        <em class="fa fa-files-o"></em>
+                                        <div class="text">Support et Ressources</div>
+                                    </div>
+                                </a>
+                                <div id="uber-menu-1" class="uber-menu panel-collapse">
+                                    <div class="container">
+                                        <div class="main-wrap">
+                                            <div class="items-wrap clearfix">
+                                                <div class="col-xs-3 col">
+                                                    <a href="https://www.maplesoft.com/support/"><h3>Support</h3></a>
+                                    				<a href="https://www.maplesoft.com/support/">&#8226; Support technique et service clients</a>
+													<a href="https://faq.maplesoft.com">&#8226; Foire aux questions</a>
+                                   					<a href="https://www.maplesoft.com/documentation_center">&#8226; Documentation produits</a>
+                                   					<a href="https://www.maplesoft.com/support/downloads/index.aspx">&#8226; T&eacute;l&eacute;charger les mises &agrave; jour produits</a>
+                                                    <h6>&nbsp;</h6>
+                                                    <a href="https://www.maplesoft.com/support/training/"><h3>Formation produit</h3></a>
+                                                    <a href="https://www.maplesoft.com/studentcenter/index.aspx">&#8226; Centre d&rsquo;assistance aux &eacute;tudiants</a>
+													<a href="https://www.maplesoft.com/support/training/index.aspx">&#8226; Formation produit en ligne</a>
+                                                    <a href="https://www.maplesoft.com/support/training/onsite.aspx">&#8226; Formation sur place</a>
+                                                </div>
+
+                                                <div class="col-xs-3 col">
+                                               		<a href="#"><h3>Aide en ligne Produit</h3></a>
+                                                    <a href="https://www.maplesoft.com/support/help/index.aspx">&#8226; Aide en ligne Maple</a>
+                                                    <a href="https://www.maplesoft.com/support/help/MapleSim/view.aspx?path=MapleSim">&#8226; Aide en ligne MapleSim</a>
+                                                    <h6>&nbsp;</h6>
+                                                    <a href="#"><h3>Webinaires et &eacute;v&egrave;nements</h3></a>
+                                                    <a href="https://www.maplesoft.com/webinars/live/index.aspx">&#8226; Webinaires en direct</a>
+                                                    <a href="https://www.maplesoft.com/webinars/recorded/index.aspx">&#8226; Webinaires enregistr&eacute;s</a>
+                                                    <a href="https://www.maplesoft.com/company/events/index.aspx">&#8226; Agenda des &eacute;v&egrave;nements</a>
+
+                                                </div>
+
+                                                <div class="col-xs-3 col">
+                                                    <a href="#"><h3>Publications</h3></a>
+                                                    <a href="https://www.maplesoft.com/whitepapers/index.aspx">&#8226; Livres blancs techniques</a>
+                                                    <a href="https://www.maplesoft.com/subscribe/">&#8226; Bulletin &eacute;lectronique</a>
+                                                    <a href="https://www.maplesoft.com/books/index.aspx">&#8226; Livres Maple</a>
+                                                    <a href="https://www.maplesoft.com/mathmatters/index.aspx">&#8226; Disciplines math&eacute;matiques</a>
+                                                    <h6>&nbsp;</h6>
+                                                    <a href="#"><h3>Hubs de contenu</h3></a>
+                                                    <a href="https://www.maplesoft.com/teachercenter/index.aspx">&#8226; Centre de ressources pour enseignants</a>
+                                                    <a href="https://www.maplesoft.com/studentcenter/index.aspx">&#8226; Centre d&rsquo;assistance aux &eacute;tudiants</a>
+													<a href="https://www.maplesoft.com/products/maple/academic/remotelearning/">&#8226; Ressources d&rsquo;apprentissage &agrave; distance</a>
+                                                </div>
+                                              
+                                                <div class="col-xs-3 col">
+                                                    <a href="#"><h3>Exemples et applications</h3></a>
+												 	<a href="https://www.maplesoft.com/applications/index.aspx">&#8226; Portail des applications</a>
+													<a href="https://www.maplesoft.com/products/maplesim/ModelGallery/">&#8226; Galerie de mod&egrave;les MapleSim</a>
+                									<a href="https://www.maplesoft.com/company/casestudies/">&#8226; Cas d'Etudes Utilisateur</a>
+                									<a href="https://www.maplesoft.com/engineeringfundamentals/">&#8226; Exploration des fondamentaux de l'ing&eacute;nierie</a>
+													<a href="https://www.maplesoft.com/teachingconcepts/">&#8226; Concepts d&rsquo;enseignement avec Maple</a>
+                                                   <h6>&nbsp;</h6>
+                                                    <a href="https://www.maplesoft.com/community/"><h3>Communaut&eacute;</h3></a>
+                                                    <a href="http://www.mapleprimes.com">&#8226; Forum MaplePrimes</a>
+                                                    <a href="https://maple.cloud/">&#8226; MapleCloud</a>
+													<a href="https://www.maplesoft.com/mapleconference/">&#8226; Maple Conference</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                          	</li>
+                         <li class="uber-dropdown dropdown">
+                                <a class=" v-al-container" data-toggle="dropdown" href="https://www.maplesoft.com/company/about/">
+                                    <div class="v-al">
+                                        <em class="fa fa-cog"></em>
+                                        <div class="text">Entreprise</div>
+                                    </div>
+                                </a>
+                                <div id="uber-menu-1" class="uber-menu panel-collapse">
+                                    <div class="container">
+                                        <div class="main-wrap">
+                                            <div class="items-wrap clearfix">
+                                                <div class="col-xs-3 col">
+                                                    <a href="https://www.maplesoft.com/company/about/"><h3>A propos de Maplesoft</h3></a>
+                                                    <a href="https://www.maplesoft.com/company/about/">&#8226; Pr&eacute;sentation de la soci&eacute;t&eacute;</a>
+                                                    <a href="https://www.maplesoft.com/company/about/#management">&#8226; Direction</a>
+                                                    <a href="https://www.maplesoft.com/company/about/#customers">&#8226; Clients</a>
+													 <a href="https://www.maplesoft.com/company/about/values.aspx">&#8226; Mission Statement and Core Values</a>
+													 <a href="https://www.maplesoft.com/partnerships/">&#8226; Partenariats et Opportunit&eacute;es OEMs</a>
+                                                </div>
+                                                <div class="col-xs-3 col">
+                                                    <a href="https://www.maplesoft.com/media/"><h3>Ressources presse</h3></a>
+                                                    <a href="https://www.maplesoft.com/company/news/">&#8226; Communiqu&eacute;s de presse</a>
+                                                    <a href="https://www.maplesoft.com/company/casestudies/">&#8226; Cas d'Etudes Utilisateur</a>
+                                                    <a href="https://www.maplesoft.com/company/publications/articles/">&#8226; Couverture m&eacute;diatique</a>
+                                                </div>
+                                                <div class="col-xs-3 col">
+                                                	  <a href="https://www.maplesoft.com/community/"><h3>Communaut&eacute;</h3></a>
+                                                    <a href="http://www.mapleprimes.com">&#8226; MaplePrimes</a>
+                                                    <a href="https://www.maplesoft.com/ambassador/">&#8226; Programme Ambassadeur Maple</a>
+                                                	<a href="https://www.maplesoft.com/mapleconference/">&#8226; Maple Conference</a>
+                                                </div>
+                                                   <div class="col-xs-3 col">
+                                                    <a href="https://www.maplesoft.com/contact/"><h3>Contacts</h3></a>
+                                                    <a href="https://www.maplesoft.com/contact/">&#8226; Coordonn&eacute;es internationales</a>
+                                                    <a href="https://www.maplesoft.com/company/careers/">&#8226; Recrutement</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+										
+						<li class="uber-dropdown dropdown">
+                                    <div class="v-al">
+                                       <a data-toggle="collapse" href="#search" class="v-al-container">
+                            <em class="fa fa-search"></em>
+										</a>
+                                    </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="mobile-header">
+
+                        <div class="logo-wrapper">
+                            <a class="logo-box" href="https://www.maplesoft.com">
+                                <img class="img-responsive" alt="Maplesoft Logo" src="/images2015/Maplesoft_logo_sm.png">
+                            </a>
+                        </div>
+
+                        <ul class="main-menu" id="navbar-collapse-1">
+                            <li class="main alt-bg-color">
+                                <button type="button" class="collapsed fa fa-times" data-toggle="collapse" data-target="#navbar-collapse-1"></button>
+                            </li>
+
+                            <li>
+							
+                            <a href="https://www.maplesoft.com/index.aspx">Home</a>
+							
+							</li>
+								
+                            <li>
+                                <a href="https://www.maplesoft.com/products/">Produits</a>
+                                <ul class="submenu">
+                                    <li><a href="https://www.maplesoft.com/products/Maple/">Maple</a></li>
+                                    <li><a href="https://www.maplesoft.com/products/toolboxes/">Bo&icirc;te &agrave; outils et add-ons Maple</a></li>
+									<li><a href="https://www.maplesoft.com/products/Learn/">Maple Learn</a></li>
+									<li><a href="https://www.maplesoft.com/products/MapleCalculator/">Maple Calculator App</a></li>
+                                    <li><a href="https://www.maplesoft.com/products/MapleSim/">MapleSim</a></li>
+									 <li><a href="https://www.maplesoft.com/products/toolboxes/#maplesim">Connecteurs et biblioth&egrave;ques de composants</a></li>
+									<li><a href="https://www.maplesoft.com/Engineering/">System Engeneering</a></li>
+									<li><a href="https://www.maplesoft.com/products/proservices/">Services Professionnels</a></li>
+									<li><a href="https://www.maplesoft.com/OnlineLearning/">Enseignement en ligne</a></li>
+                                </ul>
+                            </li>
+							
+							  <li>
+                                 <a href="https://www.maplesoft.com/solutions/">Solutions</a>
+                                <ul class="submenu">
+                                    <li><a href="https://www.maplesoft.com/MapleEducation/">&Eacute;ducation et Recherche</a></li>
+                                    <li><a href="https://www.maplesoft.com/Engineering/#industrysolutions">Ing&eacute;nierie</a></li>
+                                    <li><a href="https://www.maplesoft.com/Engineering/#industrysolutions">Application Areas</a></li>
+                                </ul>
+                            </li>
+							
+                            <li>
+                                <a href="https://www.maplesoft.com/pricing/">Achats</a>
+                                <ul class="submenu">
+                                    <li><a href="https://www.maplesoft.com/pricing/">Prix et d'achats</a></li>
+                                    <li><a href="https://webstore.maplesoft.com/">Boutique en ligne Maplesoft</a></li>
+                                    <li><a href="https://www.maplesoft.com/pricing">Institutional Student Licensing</a></li>
+                                	<li><a href="https://www.maplesoft.com/elite/">Programme de maintenance EMP</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="https://www.maplesoft.com/site_resources/">Support et Ressources</a>
+                                <ul class="submenu">
+                                    <li><a href="https://www.maplesoft.com/support/">Support</a></li>
+                                    <li><a href="https://www.maplesoft.com/support/training/">Formation produit</a></li>
+                                    <li><a href="https://www.maplesoft.com/support/help/">Online Product Help</a></li>
+                                    <li><a href="https://www.maplesoft.com/webinars/live/">Webinaires en direct</a></li>
+                                    <li><a href="https://www.maplesoft.com/whitepapers/">Livres blancs techniques</a></li>
+                                    <li><a href="https://www.maplesoft.com/welcome/">Content Hubs</a></li>
+                                    <li><a href="https://www.maplesoft.com/applications/">Examples &amp; Applications</a></li>
+                                    <li><a href="https://www.maplesoft.com/community/">Communaut&eacute;</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="https://www.maplesoft.com/company/about/">Company</a>
+                                <ul class="submenu">
+                                    <li><a href="https://www.maplesoft.com/company/about/">A propos de Maplesoft</a></li>
+                                    <li><a href="https://www.maplesoft.com/media/">Ressources presse</a></li>
+                                     <li><a href="https://www.maplesoft.com/community">Communaut&eacute;</a></li>
+									<li><a href="https://www.maplesoft.com/contact/">Contact</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar main-bg-color"></span>
+                            <span class="icon-bar main-bg-color"></span>
+                            <span class="icon-bar main-bg-color"></span>
+                        </button>
+                    </div>
+                </div>
+         	 <div class="shadow v4"></div>
+            </header>
+            
+            <div id="search" class="panel-collapse collapse">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                        	<form name="gs" method="get" action="https://www.maplesoft.com/search?q=" id="sitesearch" style="margin:0;padding:0;">
+                            <div class="input-group">
+                                <input type="text" name="q" id="mainSearch" value="" placeholder="Search..." class="form-control" style="font-size:16px;">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default button solid blue" alt="go" name="btnG" id="searchGo">
+                                        <span class="over">
+                                            <em class="fa fa-search"></em>
+                                        </span>
+                                    </button>
+                                </span>
+                            </div><!-- /input-group -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script language="javascript" type="text/javascript">
+			function watermark(inputId,text){
+			  var inputBox = document.getElementById(inputId);
+				if (inputBox.value.length > 0){
+				  if (inputBox.value == text)
+					inputBox.value = '';
+				}
+				else
+				  inputBox.value = text;
+			}
+			</script>
+ 
+		  <main id="main" class="main main-2">
+    <div class="gradient"></div>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="row" style="padding-top: 0px; padding-bottom: 0px;">
+                <div class="col-lg-12 text-left text-lg-left">
+                    <div class="text" style="padding-top: 25px;">
+                         <div class="text-center">
+							<div class="MCLogo text-center"><img src="../images/Maple-Calculator-mark.svg" width="145" height="145" alt=""/></div>
+							 <h1 class="MCSub" style="padding-top:25px;">Thank you! You will be redirected to the Apple Store in 5 seconds.</h1>
+							 <br/>
+						 <h2 style="padding-bottom: 40px;">If you do not get redirected, click on the following link:</h2>
+						</div>
+						<div class="col-md-12" align="center">
+							<a  class="main-text-color medium" style="font-size:20px;" href="https://apps.apple.com/us/app/maple-companion/id1466659419?ls=1">https://apps.apple.com/us/app/maple-companion/</a>
+							<br/>
+								<div> <a href="https://apps.apple.com/us/app/maple-companion/id1466659419?ls=1" onclick="var s=s_gi('maplesoftcom'); s.linkTrackVars='None'; s.linkTrackEvents='None'; s.tl(this,'o','Companion:Apple');" target="_blank"><img src="/products/MapleCalculator/images/app-store-icons-apple-app-store.png" alt="Maple Calculator App on the Apple App Store" class="img-responsive" style="max-height: 100px;"></a>
+                                </div>
+						   </div> 
+					</div>
+ 				</div>
+                </div>
+			
+            </div>
+		
+        </div>
+    </div>
+</main>
+
+
+   <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"> 
+</script> <div id="sitefooter">
+<footer>
+
+<div id="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-3 about main-el">
+                                <div class="sep-heading-container shc4 clearfix dark">
+                                    <div class="alt-text-color medium" style="font-size: 16px;"><a href="https://www.maplesoft.com/company/about/">Qui sommes-nous ?</a></div>
+                                </div>
+                              <div class="logo-dark">
+                                    <img class="img-responsive center-block" alt="Cybernet Group Company" src="/images2015/cybernet_group.png">
+                                </div>
+                                <p style="font-size:12px; color:#D8D8D8">
+                           Maplesoft&#8482;, filiale de Cybernet Systems Co. Ltd. au Japon, est le premier fournisseur logiciels haute performance dans le domaine de l'ing&eacute;nierie, des sciences et des math&eacute;matiques. Sa suite de produits refl&egrave;te la philosophie selon laquelle &laquo;&nbsp;avec de grands outils, on peut r&eacute;aliser de grandes choses&nbsp;&raquo;<br><br>
+<a href="https://www.maplesoft.com/company/about/">En savoir plus sur Maplesoft</a></p>
+                            </div>
+
+                     <div class="col-sm-6 col-md-3 main-el">
+                        <div class="sep-heading-container shc4 clearfix dark">
+                            <div class="alt-text-color medium" style="font-size: 16px;"><a href="https://www.maplesoft.com/contact/">Contact</a></div>
+                        </div>
+                        <div class="contact-widget" style="font-size:14px;">
+                            <div class="line">
+                                <em class="fa fa-map-marker alt-text-color"></em> <div class="text alt-text-color">615 Kumpf Drive <br />
+Waterloo, ON Canada<br>
+N2V 1K8<br />
+							</div>
+                        </div>
+                            <div class="line">
+                                <em class="fa fa-phone alt-text-color"></em>
+                                <div class="text alt-text-color">1-800-267-6583</div>
+                            </div>
+                            <div class="line">
+                                <em class="fa fa-envelope alt-text-color"></em>
+                                <div class="text alt-text-color"><a href="mailto:info@maplesoft.com">info@maplesoft.com</a></div>
+                            </div>
+                        </div><br>
+                        <div class="sep-heading-container shc4 clearfix dark">
+                                <div class="alt-text-color medium" style="font-size: 16px;">Communaut&eacute;</div>
+                            </div>
+        <div class="socials" id="#social-icons">
+  	<a data-toggle="tooltip" title="MaplePrimes" class="MaplePrimes" href="https://www.mapleprimes.com"> <em class="fa fa-comments-o" style="color:#333333; padding-top: 2px;"></em> </a>
+  	<a data-toggle="tooltip" title="Facebook" class="facebook" href="https://www.facebook.com/maplesoft" onclick="var s=s_gi('maplesoftcom'); 
+					s.linkTrackVars='None'; 
+					s.linkTrackEvents='None'; 
+					s.tl(this,'o','Header:Facebook');"> <em class="fa fa-facebook" style="color:#333333; padding-top: 4px;"></em> </a>
+  	
+					<a data-toggle="tooltip" title="X/Twitter" class="twitter" href="https://www.twitter.com/maplesoft" onclick="var s=s_gi('maplesoftcom'); 
+					s.linkTrackVars='None'; 
+					s.linkTrackEvents='None'; 
+					s.tl(this,'o','Header:Twitter');" style="position:relative;top:-7.5px;line-height:27px;"> <span class="Twitter" style=""><span class="" style="position:relative;top:-2.5px;color:#333333;padding:0px 0;border-radius:3px;width:27px;height:27px;text-align:center;display:inline-block;line-height:27px;"><img src="/email/socialmedia/x-only.png" style="width:18px;" /></span></span> </a>
+                     
+    <a data-toggle="tooltip" title="Youtube" class="youtube" href="https://www.youtube.com/MaplesoftVideo" onclick="var s=s_gi('maplesoftcom'); 
+						s.linkTrackVars='None'; 
+						s.linkTrackEvents='None'; 
+						s.tl(this,'o','Header:YouTube');"> <em class="fa fa-youtube" style="color:#333333; padding-top: 4px;"></em> </a>							
+    <a data-toggle="tooltip" title="Linkedin" class="linkedin" href="https://www.linkedin.com/company/maplesoft/" onclick="var s=s_gi('maplesoftcom'); 
+					s.linkTrackVars='None'; 
+					s.linkTrackEvents='None'; 
+					s.tl(this,'o','Header:LinkedIn');"> <em class="fa fa-linkedin" style="color:#333333; padding-top: 3px;"></em> </a>
+	   
+					<a data-toggle="tooltip" title="Instagram" class="Instagram" href="https://www.instagram.com/maplemathmatters/" onclick="var s=s_gi('maplesoftcom'); 
+					s.linkTrackVars='None'; 
+					s.linkTrackEvents='None'; 
+					s.tl(this,'o','Header:LinkedIn');"> <em class="fa fa-instagram" style="color:#333333; padding-top: 3px;"></em> </a>
+	
+		    <a title="WeChat" class="WeChat" href="#modal-1" data-toggle="modal" data-target="#modal-1" onclick="var s=s_gi('maplesoftcom'); 
+					s.linkTrackVars='None'; 
+					s.linkTrackEvents='None'; 
+					s.tl(this,'o','Header:LinkedIn');"> <em class="fa fa-wechat" style="color:#333333; padding-top: 3px;"></em> </a>							
+                            </div>
+                          </div>
+
+                            <div class="col-sm-12 col-md-3 main-el">
+                                <div class="sep-heading-container shc4 clearfix dark">
+                                    <div class="alt-text-color medium" style="font-size: 16px;">Liens rapides</div>
+                                </div>
+                                <div class="list-group">
+                                    <a href="https://www.maplesoft.com/products/" class="list-group-item" style="color:#DADADA">Produits</a>
+                                    <a href="https://www.maplesoft.com/solutions/" class="list-group-item" style="color:#DADADA">Solutions</a>
+                                    <a href="https://www.maplesoft.com/pricing/" class="list-group-item" style="color:#DADADA">Achats</a>
+                                    <a href="https://www.maplesoft.com/site_resources/" class="list-group-item" style="color:#DADADA">Support et Ressources</a>
+                                    <a href="https://www.maplesoft.com/company/about/" class="list-group-item" style="color:#DADADA">Entreprise</a>
+                                </div>
+                            </div>
+
+                   <div class="col-sm-6 col-md-3 main-el">
+                        <div class="sep-heading-container shc4 clearfix dark">
+                            <div class="alt-text-color medium" style="font-size: 16px;">Listes d'e-mails Maplesoft</div>
+                        </div>
+                        <div class="contact-widget" style="font-size:14px;">
+                            <div class="line">
+                                <em class="alt-text-color">&#8226;</em>
+                                <div class="text alt-text-color"><a href="https://www.maplesoft.com/subscribe/reporter/">The Maple Reporter</a> </div>
+                            </div>
+                            <div class="line">
+                                <em class="alt-text-color">&#8226;</em>
+                                <div class="text alt-text-color"><a href="https://www.maplesoft.com/subscribe/MaplesimMonthly/">Model-Driven Innovation Monthly</a></div>
+                            </div>
+                            <div class="line">
+                                <em class="alt-text-color">&#8226;</em>
+                                <div class="text alt-text-color"><a href="https://www.maplesoft.com/subscribers/subscription_list.aspx">Autres offres par e-mail</a></div>
+                            </div>
+                        </div><br>
+                        <div class="sep-heading-container shc4 clearfix dark">
+                                    <div class="alt-text-color medium" style="font-size: 16px;">Maplesoft Membership</div>
+                                </div>
+                                <div class="list-group">
+                                    <a href="https://www.mapleprimes.com/register/" class="list-group-item" style="color:#DADADA">Sign-up</a>
+                                    <a href="https://www.maplesoft.com/logout/" class="list-group-item" style="color:#DADADA">Log-Out</a>                                  
+                                </div>
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div id="botbar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                 <p style="font-size:13px; color:#D8D8D8; padding-top:15px;">
+                 <strong>Langue:</strong>
+                 &nbsp; <a href="https://www.maplesoft.com/products/maplecalculator/download/apple.aspx?L=E" rel="alternate" hreflang="en" class="activeLang">English</a>&nbsp; |&nbsp; <a href="https://fr.maplesoft.com/products/maplecalculator/download/apple.aspx" rel="alternate" hreflang="fr">Fran&ccedil;ais</a>&nbsp; |&nbsp; <a href="https://de.maplesoft.com/products/maplecalculator/download/apple.aspx?L=G" rel="alternate" hreflang="de">Deutsch</a>&nbsp; |&nbsp; <a href="https://jp.maplesoft.com/products/maplecalculator/download/apple.aspx?L=J" rel="alternate" hreflang="jp" class="activeLang">日本語</a>&nbsp; |&nbsp; <a href="https://cn.maplesoft.com/products/maplecalculator/download/apple.aspx?L=C" rel="alternate" hreflang="cn">简体中文</a>
+                 </p>
+                 <p style="font-size:13px; color:#D8D8D8">
+                 &#169; Maplesoft, une division de Waterloo Maple Inc. 2023. &nbsp;&bull;&nbsp;<a href="/terms/">Conditions d'utilisation</a> | <a href="https://www.maplesoft.com/privacy/">Confidentialit&eacute;</a> | <a href="https://www.maplesoft.com/trademark/">Marques d&eacute;pos&eacute;es</a> | <a href="https://www.maplesoft.com/site-map/">Site Map</a></p>
+                </div>
+                </div>
+    
+
+    <!-- Adobe Retarget Tag MultiView -->
+    <script type="text/javascript">if(typeof _satellite != "undefined"){_satellite.pageBottom();}</script>
+                        </div>
+                    </div>
+							
+	<!-- Modal -->
+            <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+
+                            <button type="button" class="close main-bg-color alt-text-color" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+                            <div class="modal-title text-center" id="myModalLabel" style="font-size: 26px;">WeChat</div>
+
+                        </div>
+
+                        <div class="modal-body">
+
+                            <div class="text" align="center" style="padding: 50px;">
+                                <img src="/images2023/Maplesoft-wechat258_258.png" class="img-responsive" alt="WeChat">
+                            </div>
+
+                        </div>
+
+                     
+
+                    </div>
+
+                </div>
+
+            </div>
+							
+    </footer>      
+            
+            <div id="totop" class="collapsed">
+                <em class="fa fa-chevron-up"></em>
+            </div>
+
+            <script type="text/javascript" src="/includes2/bootstrap/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="/includes2/js/script.js"></script>
+            <script type="text/javascript" src="/includes2/retina/retina-1.1.0.min.js"></script>
+    <!--[if gte IE 9]>
+             <script type="text/javascript" src="/includes2/js/ie9.js"></script>
+             <![endif]-->
+        
+    </body>
+
+</html>
