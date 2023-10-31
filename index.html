@@ -3,19 +3,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nouveux gros projets</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav class="navbar">
-        <img src="Rectangle 467 (1).png" class="logo" alt="">
-        <div class="nav-links">
-            <a href="#">Feature</a>
-            <a href="#">Pricing</a>
-            <a href="#">Careers</a>
-            <a href="#">Help</a>
+<body class="mx-0">
+    <nav class="flex , ml-10 , mt-4 , justify-between">
+        <div class="flex , justify-start , items-center , gap-32 ,">
+            <img src="Rectangle 467 (1).png" class="w-[200px] , h-[40px]" alt="">
+            <ul class="flex , gap-5">
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
         </div>
-        <button><img class="play" src="playstore.svg" alt="">GET IT ON playstore</button>
+            <div class="flex , justify-end , gap-3">
+                <button class="bg-black , text-white , rounded-lg"><img class="w-10" src="playstore.svg" alt="">GET IT ON Google Play</button>
+                <button class="bg-black , text-white , rounded-lg"><img class="w-11" src="apple.png" alt="">GET IT ON App Store</button>
+            </div>
     </nav>
 </body>
 </html>
